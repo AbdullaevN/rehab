@@ -1,7 +1,7 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+// ESM-синтаксис для экспорта конфигурации
+export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // Убедитесь, что указаны правильные пути к вашим файлам
+    "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
     extend: {},
