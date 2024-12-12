@@ -1,20 +1,10 @@
-// tailwind.config.js
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", // Убедитесь, что указаны правильные пути к вашим файлам
   ],
   theme: {
-    extend: {
-      colors: {
-        customGreen: '#97ff9c',
-        bgGreen: '#89e828',
-        bgOrange: '#CD6E00',
-        bgGray: '#d5dcd5',
-        bgBlue:'#87cdff',
-        customBlue:'#284A7E'
-      },
-    },
+    extend: {},
   },
   plugins: [],
-}
+};
