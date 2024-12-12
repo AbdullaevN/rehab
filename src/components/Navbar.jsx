@@ -45,13 +45,13 @@ export default function Navbar() {
 
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <Link to="#" className="text-sm font-semibold text-gray-900 hover:text-gray-400">
-            Log in
+            {/* Log in */}
           </Link>
         </div>
       </nav>
 
       <Dialog open={mobileMenuOpen} onClose={() => setMobileMenuOpen(false)} className="lg:hidden">
-        <DialogPanel className="fixed inset-y-0 right-0 w-full bg-white px-6 py-6 sm:max-w-sm">
+        <DialogPanel className="fixed inset-y-0 right-0 w-full bg-white px-6 py-6 sm:max-w-sm z-10">
           <div className="flex justify-between">
             <a href="/" className="-m-1.5 p-1.5">
               <img alt="logo" src="https://tailwindui.com/plus/img/logos/mark.svg" className="h-8 w-auto" />

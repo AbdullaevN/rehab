@@ -44,12 +44,11 @@ function Home() {
       </div>
     </section>
 
-    <section id="team" className="py-20 bg-gray-100">
+    {/* <section id="team" className="py-20 bg-gray-100">
       <div className="container mx-auto text-center">
         <h3 className="text-3xl font-semibold mb-8">Наша команда</h3>
         <div className="flex justify-center gap-12">
-          {/* Команда */}
-          <div className="p-6 bg-white rounded-lg shadow-lg">
+           <div className="p-6 bg-white rounded-lg shadow-lg">
             <img src="https://via.placeholder.com/150" alt="Team Member" className="w-32 h-32 mx-auto rounded-full mb-4" />
             <h4 className="text-xl font-semibold">Д-р Иванов</h4>
             <p className="text-gray-600">Врач-реабилитолог с 10-летним стажем.</p>
@@ -66,7 +65,7 @@ function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
 
     <section id="testimonials" className="py-20 bg-white">
       <div className="container mx-auto text-center">
