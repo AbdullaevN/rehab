@@ -10,6 +10,7 @@ import FAQ from './pages/FAQ';
 import Contacts from './pages/Contacts';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import Equipment from './pages/Equipment';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/team" element={<Team />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/pricing" element={<Pricing />} />
+        <Route path="/equipment" element={<Equipment />} />
         <Route path="/faq" element={<FAQ />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>

@@ -4,7 +4,11 @@ function Home() {
   return (
   <>
   
-  <section id="home" className="relative bg-cover bg-center" style={{ backgroundImage: 'url(https://via.placeholder.com/1500)' }}>
+  <section id="home" className="relative bg-cover bg-center" 
+  style={{ 
+    backgroundImage: 'url(https://www.beechfieldhealthcare.ie/media/catalog/product/cache/2de07ac6d48e0e71ad0d17e6ba1a6fc1/c/o/cobi-bariatric-powerchair.jpg)', objectFit:"cover"  }}>
+
+      
       {/* Затемнение фона */}
       <div className="absolute inset-0 bg-black opacity-50"></div>
 

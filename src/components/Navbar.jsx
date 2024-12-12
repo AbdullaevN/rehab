@@ -10,6 +10,7 @@ const menuItems = [
   { name: 'Команда', link: '/team' },
   { name: 'Отзывы', link: '/reviews' },
   { name: 'Цены', link: '/pricing' },
+  { name: 'Оборудование', link: '/equipment' },
   { name: 'FAQ', link: '/faq' },
   { name: 'Контакты', link: '/contacts' },
 ];
