@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
 
           {/* Колонка 2: Ссылки */}
-          <div className="space-y-4">
+          {/* <div className="space-y-4">
             <h3 className="text-lg font-semibold">Навигация</h3>
             <ul className="space-y-2">
               <li>
@@ -41,14 +41,15 @@ const Footer = () => {
                 <Link to="/contacts" className="hover:text-gray-400">Контакты</Link>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Колонка 3: Контактная информация */}
           <div>
             <h3 className="text-lg font-semibold">Контакты</h3>
-            <p className="text-gray-400">Адрес: ул. Примерная, 123, Город, Страна</p>
-            <p className="text-gray-400">Телефон: +123 456 7890</p>
-            <p className="text-gray-400">Email: example@example.com</p>
+            <p className="text-gray-400">Адрес: Улица Звёздная, 7Б 
+            ​Кадамжай, Кадамжайский район, Баткенская область</p>
+            <p className="text-gray-400">Телефон: +996 776 021 859</p>
+            <p className="text-gray-400">Email: kojonov.98@gmail.com</p>
           </div>
         </div>
 

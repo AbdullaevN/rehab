@@ -11,7 +11,7 @@ const menuItems = [
   { name: 'Отзывы', link: '/reviews' },
   { name: 'Цены', link: '/pricing' },
   { name: 'Оборудование', link: '/equipment' },
-  { name: 'FAQ', link: '/faq' },
+  // { name: 'FAQ', link: '/faq' },
   { name: 'Контакты', link: '/contacts' },
 ];
 
